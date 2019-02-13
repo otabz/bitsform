@@ -1,0 +1,5 @@
+XSym
+0062
+209d07a0d85e01b623558954792e8147
+../../../GoogleAPIClient/Source/Utilities/GTLTargetNamespace.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

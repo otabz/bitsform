@@ -1,0 +1,5 @@
+XSym
+0056
+8136323924639834314bc8d647213783
+../../../GoogleAPIClient/Source/Objects/GTLBatchResult.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

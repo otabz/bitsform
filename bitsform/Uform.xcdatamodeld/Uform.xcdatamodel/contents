@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="Extension_Template" representedClassName=".Extension_Template" syncable="YES">
+        <attribute name="created_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sharing_key" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Extension_Template_Fields" representedClassName=".Extension_Template_Fields" syncable="YES">
+        <attribute name="field_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="template_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Field" representedClassName=".Field" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Field_Values" representedClassName=".Field_Values" syncable="YES">
+        <attribute name="field_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Form" representedClassName="Form" syncable="YES">
+        <attribute name="client_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name_ar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_fr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_ur" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_zh" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone_emergency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone_reception" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo1" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="photo2" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="section_contact" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="section_location" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="section_names" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="section_photos" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="section_specialty" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="section_time" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="sent" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="sent_at" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="server_id" optional="YES" attributeType="Integer 32" defaultValueString="-1" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uploaded_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="More_Fields" representedClassName=".More_Fields" syncable="YES">
+        <attribute name="field_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="form_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFilled" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+    </entity>
+    <entity name="More_Fields_Values" representedClassName=".More_Fields_Values" syncable="YES">
+        <attribute name="field_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="form_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Section_Specialty" representedClassName="Section_Specialty" syncable="YES">
+        <attribute name="available" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="form_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Section_Time" representedClassName="Section_Time" syncable="YES">
+        <attribute name="close_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="form_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="open_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Sequence" representedClassName=".Sequence" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Sequence_Extension_Template" representedClassName=".Sequence_Extension_Template" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Sequence_Field" representedClassName=".Sequence_Field" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Extension_Template" positionX="-216" positionY="-225" width="128" height="105"/>
+        <element name="Extension_Template_Fields" positionX="-198" positionY="-207" width="128" height="75"/>
+        <element name="Field" positionX="-171" positionY="-180" width="128" height="90"/>
+        <element name="Field_Values" positionX="-180" positionY="-189" width="128" height="75"/>
+        <element name="Form" positionX="-398" positionY="-381" width="128" height="420"/>
+        <element name="More_Fields" positionX="-207" positionY="-216" width="128" height="90"/>
+        <element name="More_Fields_Values" positionX="-189" positionY="-198" width="128" height="90"/>
+        <element name="Section_Specialty" positionX="-29" positionY="-171" width="128" height="105"/>
+        <element name="Section_Time" positionX="-36" positionY="162" width="128" height="105"/>
+        <element name="Sequence" positionX="-207" positionY="-216" width="128" height="60"/>
+        <element name="Sequence_Extension_Template" positionX="-207" positionY="-216" width="128" height="60"/>
+        <element name="Sequence_Field" positionX="-189" positionY="-198" width="128" height="60"/>
+    </elements>
+</model>

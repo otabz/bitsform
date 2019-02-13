@@ -1,0 +1,5 @@
+XSym
+0055
+228bf99c8717d57abe3f021423ed6c55
+../../../GoogleAPIClient/Source/Objects/GTLBatchQuery.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
